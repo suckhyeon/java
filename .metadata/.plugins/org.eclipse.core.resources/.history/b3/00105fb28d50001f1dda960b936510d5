@@ -1,0 +1,11 @@
+package test240802.object1;
+
+public class TCPClient {
+
+	public static void main(String[] args) {
+		public void client() {
+			
+		}
+	}
+
+}

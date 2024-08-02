@@ -1,0 +1,53 @@
+package test240729.object1;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.TreeSet;
+
+public class LotteryController {
+	private HashSet lottery = new HashSet();
+	private HashSet win = new HashSet();
+	
+	public boolean insertObject(Lottery l) {
+		
+		lottery.add(l);
+		for(Object obj : lottery) {
+			if(lottery == null) {
+				return false;
+			}
+		}
+		return true;
+	}
+	
+	public boolean deleteObject(Lottery l) {
+		if(l == this.winObject()) {
+			return false;
+		} else {
+			
+		lottery.remove(l);
+		}
+		
+		boolean != null && this.winObjcet() != null
+				
+		
+		return true;
+	}
+	
+	public HashSet winObjcet() {
+		
+		ArrayList list = new ArrayList();
+		list.addAll(lottery);
+		
+		list.indexOf(list);
+		}	
+	}
+	
+	public TreeSet sortedWinObject() {
+		return null;
+		
+	}
+	
+	public boolean searchWinner(Lottery l) {
+		return false;
+	}
+}

@@ -1,0 +1,37 @@
+package test240730.object1;
+
+import java.util.HashMap;
+import java.util.TreeMap;
+
+public class MemberController {
+	private HashMap map = new HashMap();
+	
+	public boolean joinMembership(String id, Member m) { // id를 키로 m을 벨류로  / map.contain(id)
+		if(id.equals()) { //id를 key로 값을 가져왔을 때 값이 없다면
+			map.put(id, m); // 제네릭 선언을 안해서 object형태로 들어감
+			return true;
+		} else {
+			return false;
+		}
+		
+		return false;
+	}
+	
+	public String logIn(String id, String password) { // null이 아니여야 값이 들어있다.
+		
+		return null;
+	}
+	
+	public boolean changePassword(String id, String oldPw, String newPw) {
+		return false;
+	}
+	
+	public void changeName(String id, String newName) {
+		
+	}
+	
+	public TreeMap sameName(String name) {
+		return null;
+	}
+
+}

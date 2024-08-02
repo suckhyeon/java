@@ -1,0 +1,33 @@
+package test240802.object1;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Run1 {
+	public void fileSave(String fileName) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("파일 이름 : ");
+		String name = sc.nextLine();
+
+		try {
+			FileReader fr = new FileReader(fileName);
+			
+			fr.read("사과", 20);
+			
+			System.out.println(fr);
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			fr.close();
+		}
+	}
+	
+	public void fileWriter() {
+		FileWriter fw = new FileWriter();
+		
+	}
+}

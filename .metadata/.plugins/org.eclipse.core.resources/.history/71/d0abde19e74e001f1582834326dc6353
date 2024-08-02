@@ -1,0 +1,15 @@
+package test240731.object1;
+
+public class Farm {
+	public String kind;
+
+	public Farm() {
+		super();
+	}
+	
+	public Farm(String kind) {
+		super();
+	}
+	
+
+}

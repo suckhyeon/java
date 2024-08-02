@@ -1,0 +1,12 @@
+package test240802.object1;
+
+public class TCPClient {
+		public void client() {
+		
+		int import = 3000;
+		String serverIP;
+			
+			
+		}
+
+}

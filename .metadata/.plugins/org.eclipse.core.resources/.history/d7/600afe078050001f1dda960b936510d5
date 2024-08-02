@@ -1,0 +1,10 @@
+package test240802.object1;
+
+public class Ruuun {
+
+	public static void main(String[] args) {
+		new Filechar().fileSave();
+
+	}
+
+}

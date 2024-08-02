@@ -1,0 +1,12 @@
+package test240802.object1;
+
+public class Run {
+
+	public static void main(String[] args) {
+		
+		Circle c = new Circle();
+		c.setRadius(0.0);
+		c.draw();
+	}
+
+}

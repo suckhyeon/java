@@ -1,0 +1,8 @@
+package q.thread.ex1;
+
+/*
+ * 쓰레드 생성방법 2 : Runnable의 추상메소드
+ */
+public class MyRunable {
+
+}

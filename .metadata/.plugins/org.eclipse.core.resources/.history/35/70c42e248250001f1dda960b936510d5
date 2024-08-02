@@ -1,0 +1,44 @@
+package test240802.object1;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Run1 {
+	public void fileSave(String fileName) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("파일 이름 : ");
+		String name = sc.nextLine();
+
+		try {
+			FileReader fr = new FileWriter(fileName);
+			
+			fr.write("사과");
+			fr.write(20);
+			
+			System.out.println(fr);
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			fr.close();
+		}
+	}
+	
+	public void fileWriter() {
+		
+	}
+}
+//
+//- 전달받은 fileName 으로 파일 객체를 생성한다.
+//
+//- 파일 객체와 연결하는 파일 출력스트림을 생성한다.
+//
+//- 파일에 Food 객체를 기록할 수 있는 객체 출력스트림을 추가한다.
+//
+//- 파일에 Food 객체 정보를 기록하고 스트림들을 닫는다.
+//
+//- Food 객체 샘플 : "사과", 20
+

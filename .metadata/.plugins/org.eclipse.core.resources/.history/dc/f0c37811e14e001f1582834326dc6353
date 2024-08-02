@@ -1,0 +1,19 @@
+package q.thread.chat;
+
+import java.net.Socket;
+
+public class ClientRecive implements Runnable{
+	private Socket skcket;
+
+	public ClientRecive(Socket skcket) {
+		super();
+		this.skcket = skcket;
+	}
+	
+	@Override
+	public void run() {
+		
+		
+	}
+
+}

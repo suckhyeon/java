@@ -1,0 +1,21 @@
+package test240802.object1;
+
+import java.util.ArrayList;
+
+import test240731.object1.Fruit;
+
+public class MyCollection {
+	public static void main(String[] args) {
+		ArrayList<Fruit> list = new ArrayList<Fruit>();
+		list.add(new Fruit("사과", "빨강"));
+		list.add(new Fruit("메론", "초록"));
+		list.add(new Fruit("포도", "보라"));
+		list.add(new Fruit("사과", "빨강"));
+		
+	}
+
+}
+
+
+ArrayList를 이용해 다수의 Fruit객체를 저장 후 출력하려고 하는데 문제가 생겼다. 문제가 생긴 곳을 찾아 이유와 함께
+[원인](15점)에 기술하고, 이를 해결한 코드를 [조치내용](15점)에 기술하시오. (총 30점)

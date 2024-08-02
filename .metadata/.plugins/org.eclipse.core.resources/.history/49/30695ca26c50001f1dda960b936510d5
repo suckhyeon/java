@@ -1,0 +1,6 @@
+package test240802.object1;
+
+public class Circle {
+	public static final double PI = 3.14;
+
+}

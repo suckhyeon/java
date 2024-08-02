@@ -1,0 +1,17 @@
+package test240802.object1;
+
+import test240710.object1.Person;
+
+public class test {
+	public static void main(String[] args) {
+		Person[] pArr = new Person[3];
+		
+		for(int i = 0; i <= pArr.length; i++) {
+			System.out.println(pArr[i];
+		}
+	}
+
+}
+
+다음 코드는 잘못된 코드이다. 잘못된 부분과 이유를 [원인](10점)에 모두 기술하고,
+올바르게 구동되도록 고친 코드를 [조치내용](10점)에 작성하시오. (총 20점)
